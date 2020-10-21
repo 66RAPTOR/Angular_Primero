@@ -1,0 +1,19 @@
+<p>detalle-producto works!</p>
+<div>
+  <h1>Detalle de productos</h1>
+  <hr />
+
+  <div class="card mt-3 p-3" >
+    <h2>
+       {{ pro.name }} 
+    </h2>
+
+    <div>Category: {{pro.category}}</div>
+    <div>Description: {{pro.description}}</div>
+    <div>Precio: {{pro.price}}</div>
+
+  </div>
+
+  <button class="btn btn-primary mt-3" (click)="onGoBack()" >Go back</button>
+
+</div>
